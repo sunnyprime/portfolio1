@@ -46,7 +46,7 @@ export default function LeftNav() {
           > 
           <Link className="NL" to="/">
             <MenuItem onClick={handleClose}>
-              Home
+              HOME
             </MenuItem>
           </Link>
           <Link className="NL" to="/skills">

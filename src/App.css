@@ -66,3 +66,19 @@
   text-decoration: none;
   color: black;
 }
+
+.image{
+  height:200px;
+  width: 200px;
+  border:8px solid rgb(255, 236, 211);
+  background-image:url('https://avatars1.githubusercontent.com/u/32408813?s=460&u=6a7fc6dcd66e003b25bbfc9f2ed9cb366b13eec3&v=4');
+  background-size: cover;
+  transition: width 2s, height 2s;
+
+
+}
+
+.image:hover{
+  height: 250px;
+  width: 250px;
+}

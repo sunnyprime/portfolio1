@@ -9,7 +9,7 @@ import {Link} from "react-router-dom"
 
 const useStyles = makeStyles({
   root: {
-    width: 300,
+    width: 200,
   },
 });
 
@@ -22,7 +22,7 @@ export default function Buton() {
       setValue(newValue);
     };
     return (
-        <div>
+        <div className="">
         <BottomNavigation value={value} onChange={handleChange} className={classes.root}>
         <Link to="/skills">
         <BottomNavigationAction label="Favorites" value="favorites" icon={<SportsEsportsIcon />} />
